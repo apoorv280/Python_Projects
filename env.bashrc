@@ -1,1 +1,0 @@
-alias activate_env="conda activate C:\Users\apopa\Python_Projects\.venv"
