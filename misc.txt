@@ -1,0 +1,21 @@
+conda activate C:\Users\apopa\Python_Projects\.venv
+conda info --envs
+git pull origin main
+
+# Clone the repo
+git clone https://github.com/your-username/your-repo.git
+cd your-repo
+
+# Stage and commit
+git add .
+git commit -m "Initial commit" ## use comments in place of Initial commit
+
+# Push to GitHub
+git push origin main
+
+# create files in windows
+echo. > main.py
+echo. > requirements.txt
+
+# create venv inside the folder
+conda create -p ./myenv python=3.10
